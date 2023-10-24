@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a21fc55-508c-4227-a53e-195f76978bc8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/app/home/components/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app/home/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app/home/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app/auth/store/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app/auth/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app/auth/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app/auth/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698163018831</updated>
       <workItem from="1698163019959" duration="293000" />
-      <workItem from="1698163329538" duration="6125000" />
+      <workItem from="1698163329538" duration="7765000" />
     </task>
     <servers />
   </component>
