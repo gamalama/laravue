@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a21fc55-508c-4227-a53e-195f76978bc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58d246af-b584-4e7b-89ba-926c031c158e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58d246af-b584-4e7b-89ba-926c031c158e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/components/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/components/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +204,7 @@
       <updated>1698163018831</updated>
       <workItem from="1698163019959" duration="293000" />
       <workItem from="1698163329538" duration="11115000" />
-      <workItem from="1698890734776" duration="6696000" />
+      <workItem from="1698890734776" duration="7628000" />
     </task>
     <servers />
   </component>
