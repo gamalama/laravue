@@ -1,7 +1,7 @@
 <template>
     <div>
+        <Navigation/>
         <main class="py-4">
-            <Navigation/>
             <router-view></router-view>
         </main>
     </div>

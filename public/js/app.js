@@ -1921,7 +1921,8 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
     return {
       name: null,
       email: null,
-      password: null
+      password: null,
+      errors: []
     };
   },
   methods: _objectSpread(_objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])({
@@ -1934,7 +1935,8 @@ function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input ==
           name: this.name,
           email: this.email,
           password: this.password
-        }
+        },
+        context: this
       });
     }
   })
@@ -2058,6 +2060,9 @@ var render = function render() {
       expression: "name"
     }],
     staticClass: "form-control",
+    "class": {
+      "is-invalid": _vm.errors.name
+    },
     attrs: {
       id: "name",
       type: "text",
@@ -2074,7 +2079,12 @@ var render = function render() {
         _vm.name = $event.target.value;
       }
     }
-  })])]), _vm._v(" "), _c("div", {
+  }), _vm._v(" "), _vm.errors.name ? _c("span", {
+    staticClass: "invalid-feedback",
+    attrs: {
+      role: "alert"
+    }
+  }, [_c("strong", [_vm._v(_vm._s(_vm.errors.name[0]))])]) : _vm._e()])]), _vm._v(" "), _c("div", {
     staticClass: "form-group row"
   }, [_c("label", {
     staticClass: "col-md-4 col-form-label text-md-right",
@@ -2091,6 +2101,9 @@ var render = function render() {
       expression: "email"
     }],
     staticClass: "form-control",
+    "class": {
+      "is-invalid": _vm.errors.email
+    },
     attrs: {
       id: "email",
       type: "email",
@@ -2106,7 +2119,12 @@ var render = function render() {
         _vm.email = $event.target.value;
       }
     }
-  })])]), _vm._v(" "), _c("div", {
+  }), _vm._v(" "), _vm.errors.email ? _c("span", {
+    staticClass: "invalid-feedback",
+    attrs: {
+      role: "alert"
+    }
+  }, [_c("strong", [_vm._v(_vm._s(_vm.errors.email[0]))])]) : _vm._e()])]), _vm._v(" "), _c("div", {
     staticClass: "form-group row"
   }, [_c("label", {
     staticClass: "col-md-4 col-form-label text-md-right",
@@ -2123,6 +2141,9 @@ var render = function render() {
       expression: "password"
     }],
     staticClass: "form-control",
+    "class": {
+      "is-invalid": _vm.errors.password
+    },
     attrs: {
       id: "password",
       type: "password",
@@ -2138,7 +2159,12 @@ var render = function render() {
         _vm.password = $event.target.value;
       }
     }
-  })])]), _vm._v(" "), _vm._m(0)])])])])])]);
+  }), _vm._v(" "), _vm.errors.password ? _c("span", {
+    staticClass: "invalid-feedback",
+    attrs: {
+      role: "alert"
+    }
+  }, [_c("strong", [_vm._v(_vm._s(_vm.errors.password[0]))])]) : _vm._e()])]), _vm._v(" "), _vm._m(0)])])])])])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
@@ -2195,9 +2221,9 @@ __webpack_require__.r(__webpack_exports__);
 var render = function render() {
   var _vm = this,
     _c = _vm._self._c;
-  return _c("div", [_c("main", {
+  return _c("div", [_c("Navigation"), _vm._v(" "), _c("main", {
     staticClass: "py-4"
-  }, [_c("Navigation"), _vm._v(" "), _c("router-view")], 1)]);
+  }, [_c("router-view")], 1)], 1);
 };
 var staticRenderFns = [];
 render._withStripped = true;
@@ -54403,12 +54429,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "register", function() { return register; });
 var register = function register(_ref, _ref2) {
   var dispatch = _ref.dispatch;
-  var payload = _ref2.payload;
-  // console.log(payload);
+  var payload = _ref2.payload,
+    context = _ref2.context;
   return axios.post("/api/auth/register", payload).then(function (result) {
     console.log(result.data);
   })["catch"](function (err) {
-    console.log(err.response.data.errors);
+    context.errors = err.response.data.errors;
   });
 };
 
@@ -54480,7 +54506,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   user: {
-    authenticated: false,
+    authenticated: true,
     data: null
   }
 });
@@ -54845,8 +54871,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vuex__WEBPACK_IMPORTED_MODULE_1__
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/laravue/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /var/www/laravue/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/arsene/Developments/laradock72/laravue/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/arsene/Developments/laradock72/laravue/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
