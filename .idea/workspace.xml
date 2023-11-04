@@ -7,10 +7,8 @@
     <list default="true" id="0a21fc55-508c-4227-a53e-195f76978bc8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app/auth/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app/auth/store/state.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
