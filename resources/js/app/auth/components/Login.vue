@@ -94,6 +94,8 @@ export default {
                     password: this.password,
                 },
                 context: this
+            }).then(result => {
+                this.$router.replace({name: "home"});
             });
         }
     }
